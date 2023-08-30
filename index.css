@@ -1,0 +1,90 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #123;
+}
+
+.block {
+	background-color: #fff;
+	border: 3px solid salmon;
+	border-radius: 10px;
+	width: 90%;
+	color: #200320;
+	max-width: 600px;
+	margin: 100px auto 0;
+	padding: 30px;
+}
+
+.block h1 {
+	font-size: 30px;
+	color: #001e4d;
+	font-weight: 600px;
+	border-bottom: 2px solid #333;
+	padding-bottom: 30px;
+}
+
+.quiz {
+	padding: 20px 0;
+}
+
+.quiz h2 {
+	font-size: 18px;
+	color: #001e4d;
+	font-weight: 600px;
+}
+
+.btn {
+	background-color: #fff;
+	font-weight: 500px;
+	text-align: left;
+	width: 100%;
+	border: 1px solid #222;
+	color: #222;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.btn:hover:not([disabled]) {
+	background-color: #222;
+	color: #ffffff;
+}
+
+.btn:disabled {
+	cursor: no-drop;
+}
+
+#next-question {
+	background-color: #001e4d;
+	color: #fff;
+	font-weight: 500px;
+	width: 150px;
+	border: 0;
+	padding: 11px;
+	margin: 20px auto 0;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+#show {
+	font-size: 20px;
+	color: rgb(54, 63, 248);
+	cursor: pointer;
+
+}
+
+.correct {
+	background: #9aeabc;
+}
+
+.incorrect {
+	background: #ff9393;
+}
